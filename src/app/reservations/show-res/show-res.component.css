@@ -1,0 +1,25 @@
+.pr
+{
+  background-color: rgb(8, 128, 184);
+  padding-top: 2%;
+
+}
+.right {
+    margin-left: 90%;
+    background-color: rgb(28, 187, 28);
+}
+.al{
+    margin-left: 90%;
+    background-color: transparent;
+    border-width: 0px;
+    color:white;
+    cursor:pointer;
+    opacity:0.6;
+}
+.btn
+{
+    background-color: rgb(28, 187, 28);
+}
+table{
+    width:100%;
+}

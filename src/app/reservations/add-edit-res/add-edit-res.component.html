@@ -1,0 +1,35 @@
+<button type="button" class="cancelClass" aria-label="Close" (click)="onClose()">
+    <span aria-hidden="true">x</span>
+  </button>
+  <form [formGroup]="reserveForm">
+   
+  <div>
+  <label>SNo </label>
+  <input type="number" placeholder="No" formControlName="SNo"><br><br>
+  <label>Hotel </label>
+  <input type="text" placeholder="Hotel" formControlName="Hotel"><br><br>
+  <label >Arrival </label>
+  <input type="date" formControlName="Arrival"><br><br>
+  <label>Departure </label>
+  <input type="date" formControlName="Departure"><br><br>
+  <label>Type: </label>
+  <select formControlName="Type">
+    <option value="Type" ></option>
+    <option value="luxury Suit">Luxury Suit</option>
+    <option value="Suit">Suit</option>
+    
+    <option value="Economy">Economy</option>
+    <option value="Double">Double</option>
+  </select><br><br>
+  <label>Guests </label>
+  <input type="number" placeholder="Guests" formControlName="Guests"><br><br>
+  <label>Price </label>
+  <input type="number" placeholder="price" formControlName="Price"><br><br>
+  </div>
+  <div >
+  <button (click)="addList()" class="btn btn-primary">Submit</button>|
+  
+  <button type="reset" (click)="clear()">Clear</button>
+  </div>
+</form> 
+ 
